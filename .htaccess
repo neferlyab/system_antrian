@@ -1,0 +1,8 @@
+RewriteEngine on
+#RewriteBase /
+RewriteCond $1 !^(index\.php|images|css|public|tmp|download|javascript|rte|document|xinha|robots\.txt|css)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+Options -Indexes 
+SetEnv TZ Asia/Jakarta

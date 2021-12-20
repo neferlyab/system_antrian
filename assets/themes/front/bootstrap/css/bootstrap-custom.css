@@ -1,0 +1,279 @@
+body {
+    height: 100%;
+    background:#000;
+    /* The html and body elements cannot have any padding or margin. */
+}
+#form-login {
+    margin: 0 auto;
+    float: none;
+}
+
+/* Custom Styles
+-------------------------------------------------- */
+.twitter-share-button {
+  padding-top: 10px;
+}
+
+.github {
+  margin-top: 40px;
+}
+
+.download {
+  margin: 30px 0 30px;
+  text-align: center;
+}
+
+.download .btn {
+  font-size: 20px;
+  padding: 12px 24px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+a{ outline: none;}
+.logo{
+margin:0 auto;
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+	
+/* Negative indent footer by it's height */
+    margin: 0 auto -120px;
+}
+
+.well1{
+border-radius: 9px;
+margin-bottom: 20px;
+min-height: 20px;
+padding: 19px;
+background-color:rgba(255,255,255,0.3);
+border:1px solid yellow;
+}
+
+
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 60px;
+}
+#footer {
+    background-color: #f5f5f5;
+}
+
+
+/* Footer
+-------------------------------------------------- */
+
+.footer {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 150px;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f5f5f5;
+}
+.footer p {
+  margin-bottom: 0;
+  color: #777;
+}
+.footer-links {
+  margin: 10px 0;
+}
+.footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+.footer-links li:first-child {
+  padding-left: 0;
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    #form-login {
+        margin: 100px auto 0 auto;
+        float: none;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+    #form-login {
+        margin: 100px auto 0 auto;
+        float: none;
+    }
+
+    #form-login .control-label {
+        width: 110px;
+    }
+
+    #form-login .controls {
+        margin-left: 130px;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    #form-login {
+        margin: 0 auto;
+        float: none;
+    }
+
+    #form-login .control-label {
+        width: 70px;
+    }
+
+    #form-login .controls {
+        margin-left: 80px;
+    }
+    .github-btn {
+      float:none !important;
+      width: 100% !important;
+      margin: 0 !important;
+    }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (min-width: 480px) and(max-width: 767px) {
+
+    #form-login .control-label {
+        width: 50px;
+    }
+
+    #form-login .controls {
+        margin-left: 70px;
+    }
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+  .brand {
+    font-size: 18px !important;
+  }
+}
+
+/* Buzz Out */
+@-webkit-keyframes buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+
+@keyframes buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+
+.buzz-out {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.buzz-out:hover, .buzz-out:focus, .buzz-out:active {
+  -webkit-animation-name: buzz-out;
+  animation-name: buzz-out;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
